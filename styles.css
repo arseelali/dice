@@ -1,0 +1,91 @@
+.container {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.container-dice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+@media screen and (max-width: 1020px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .container-dice {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .container-dice {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .container-dice {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
